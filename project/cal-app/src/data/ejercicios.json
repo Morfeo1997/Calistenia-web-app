@@ -1,0 +1,32 @@
+[
+  {
+    "id": "flexiones",
+    "nombre": "Flexiones",
+    "imagen": "/img/ejercicios/flexiones.jpg",
+    "categoria": "Empuje",
+    "nivel": "Principiante",
+    "musculos": ["Pectoral", "Tríceps", "Deltoides anterior", "Core"],
+    "descripcion": "Ejercicio de calistenia básico donde se empuja el propio peso corporal desde el suelo, trabajando el tren superior y el core en un solo movimiento.",
+    "equipamiento": "Ninguno (peso corporal)"
+  },
+  {
+    "id": "sentadillas",
+    "nombre": "Sentadillas",
+    "imagen": "/img/ejercicios/sentadillas.jpg",
+    "categoria": "Tren inferior",
+    "nivel": "Principiante",
+    "musculos": ["Cuádriceps", "Glúteos", "Isquiotibiales", "Core"],
+    "descripcion": "Movimiento fundamental de calistenia para piernas y glúteos, base para progresiones más avanzadas como pistol squats o saltos.",
+    "equipamiento": "Ninguno (peso corporal)"
+  },
+  {
+    "id": "dominadas",
+    "nombre": "Dominadas",
+    "imagen": "/img/ejercicios/dominadas.jpg",
+    "categoria": "Tracción",
+    "nivel": "Intermedio",
+    "musculos": ["Dorsal ancho", "Bíceps", "Romboides", "Antebrazos"],
+    "descripcion": "Ejercicio de tracción clásico de la calistenia, imprescindible para desarrollar la espalda y el agarre antes de avanzar a variantes como muscle-ups.",
+    "equipamiento": "Barra de dominadas"
+  }
+]
