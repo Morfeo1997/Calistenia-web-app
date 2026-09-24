@@ -8,7 +8,7 @@ interface NavItem {
 }
 
 const navItems: NavItem[] = [
-  { label: "Entrenar", to: "/entrenar", icon: <Dumbbell size={20} /> },
+  { label: "Entrenar", to: "/", icon: <Dumbbell size={20} /> },
   { label: "Ejercicios", to: "/ejercicios", icon: <ListChecks size={20} /> },
   { label: "Control", to: "/control", icon: <Calendar size={20} /> },
 ];
