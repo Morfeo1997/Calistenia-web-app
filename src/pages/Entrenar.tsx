@@ -3,9 +3,9 @@ import { Play, Square, Plus, RotateCcw } from "lucide-react";
 
 const TIME_OPTIONS = [
   { label: "1 min", seconds: 60 },
-  { label: "3 min", seconds: 180 },
   { label: "5 min", seconds: 300 },
   { label: "10 min", seconds: 600 },
+  { label: "20 min", seconds: 1200 },
 ];
 
 function formatTime(totalSeconds: number): string {
@@ -109,7 +109,7 @@ export default function Entrenar() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center gap-8 max-w-md mx-auto px-4 py-10 text-white">
+    <div className="flex flex-col items-center justify-center gap-8 max-w-md mx-auto px-4 py-10 text-blue-900">
       {/* Temporizador */}
       <div className="text-6xl font-bold tabular-nums">
         {formatTime(remainingTime)}
@@ -119,7 +119,7 @@ export default function Entrenar() {
       {!isRunning ? (
         <button
           onClick={handleStart}
-          className="flex items-center gap-2 bg-emerald-500 hover:bg-emerald-600 transition-colors text-white font-semibold px-8 py-4 rounded-full text-lg shadow-lg"
+          className="flex items-center gap-2 bg-emerald-500 hover:bg-emerald-600 transition-colors text-blue-900 font-semibold px-8 py-4 rounded-full text-lg shadow-lg"
         >
           <Play size={24} />
           Iniciar
@@ -127,7 +127,7 @@ export default function Entrenar() {
       ) : (
         <button
           onClick={handleStop}
-          className="flex items-center gap-2 bg-red-500 hover:bg-red-600 transition-colors text-white font-semibold px-8 py-4 rounded-full text-lg shadow-lg"
+          className="flex items-center gap-2 bg-red-500 hover:bg-red-600 transition-colors text-blue-900 font-semibold px-8 py-4 rounded-full text-lg shadow-lg"
         >
           <Square size={24} />
           Detener
@@ -144,7 +144,7 @@ export default function Entrenar() {
             className={`px-4 py-2 rounded-lg text-sm font-medium border transition-colors
               ${
                 selectedTime === seconds
-                  ? "bg-emerald-500 border-emerald-500 text-white"
+                  ? "bg-emerald-500 border-emerald-500 text-blue-900"
                   : "border-gray-600 text-gray-300 hover:bg-gray-800"
               }
               ${isRunning ? "opacity-50 cursor-not-allowed" : ""}`}
@@ -161,7 +161,7 @@ export default function Entrenar() {
         className={`flex items-center gap-2 px-6 py-3 rounded-xl text-lg font-semibold border-2 transition-colors
           ${
             isRunning
-              ? "border-sky-500 text-sky-400 hover:bg-sky-500 hover:text-white"
+              ? "border-sky-500 text-sky-400 hover:bg-sky-500 hover:text-blue-900"
               : "border-gray-700 text-gray-500 cursor-not-allowed"
           }`}
       >
@@ -181,7 +181,7 @@ export default function Entrenar() {
           </p>
           <button
             onClick={handleReset}
-            className="flex items-center gap-2 text-sm text-gray-300 hover:text-white"
+            className="flex items-center gap-2 text-sm text-gray-300 hover:text-blue-900"
           >
             <RotateCcw size={16} />
             Reiniciar
