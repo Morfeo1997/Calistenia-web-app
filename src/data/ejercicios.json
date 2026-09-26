@@ -2,7 +2,7 @@
   {
     "id": "flexiones",
     "nombre": "Flexiones",
-    "imagen": "/img/ejercicios/flexiones.jpg",
+    "imagen": "../assets/ejercicios/Flexion_1.png",
     "categoria": "Empuje",
     "nivel": "Principiante",
     "musculos": ["Pectoral", "Tríceps", "Deltoides anterior", "Core"],
@@ -12,7 +12,7 @@
   {
     "id": "sentadillas",
     "nombre": "Sentadillas",
-    "imagen": "/img/ejercicios/sentadillas.jpg",
+    "imagen": "../assets/ejercicios/Sentadilla_1.png",
     "categoria": "Tren inferior",
     "nivel": "Principiante",
     "musculos": ["Cuádriceps", "Glúteos", "Isquiotibiales", "Core"],
@@ -22,7 +22,7 @@
   {
     "id": "dominadas",
     "nombre": "Dominadas",
-    "imagen": "/img/ejercicios/dominadas.jpg",
+    "imagen": "../assets/ejercicios/Dominada_1.png",
     "categoria": "Tracción",
     "nivel": "Intermedio",
     "musculos": ["Dorsal ancho", "Bíceps", "Romboides", "Antebrazos"],
